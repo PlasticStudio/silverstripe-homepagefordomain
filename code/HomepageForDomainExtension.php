@@ -4,12 +4,12 @@ namespace Twohill\HomepageForDomain;
 
 use SilverStripe\Core\ClassInfo;
 use SilverStripe\Forms\TextField;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\CMS\Model\SiteTree;
 use SilverStripe\Forms\LiteralField;
 use SilverStripe\Versioned\Versioned;
 
-class HomepageForDomainExtension extends DataExtension
+class HomepageForDomainExtension extends Extension
 {
 
     /**
